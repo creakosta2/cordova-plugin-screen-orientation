@@ -94,6 +94,7 @@ function resolveOrientation (orientation, resolve, reject) {
     }
 }
 
+addScreenOrientationApi(screen.orientation);
 if (typeof ScreenOrientation != 'undefined') {
   addScreenOrientationApi(ScreenOrientation.prototype);
 }
